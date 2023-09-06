@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 COPY ./analytics .
 
-CMD python app.py
+CMD DB_USERNAME=postgres DB_PASSWORD=b5TsHDpM7R python app.py
