@@ -4,7 +4,6 @@ WORKDIR /src
 
 COPY ./analytics .
 
-RUN pip install --upgrade pip && \
-    pip install -r requirements.txt
+RUN pip install --upgrade pip && pip install -r requirements.txt
 
 CMD python app.py
