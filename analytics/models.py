@@ -2,6 +2,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.sql import func
 from sqlalchemy import Column, Integer, String, TIMESTAMP
 Base = declarative_base()
+#Comment
 class Token(Base):
     __tablename__ = 'tokens'
     id = Column(Integer, primary_key=True)
